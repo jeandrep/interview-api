@@ -20,7 +20,7 @@ public class FormResource {
     @POST
     @Path("/form")
     public Form setData(Form form) {
-        // Code required here.
+        form.setId(UUID.randomUUID());
+        return service.returnData(form);
     }
-
 }

@@ -1,6 +1,6 @@
 package com.bmw.interview;
 
 public interface FormService {
-    // Code required here.
+    Form returnData(Form form);
 }
 
